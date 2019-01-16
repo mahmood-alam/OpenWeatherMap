@@ -1,4 +1,4 @@
-import requests, json
+import requests
 
 # API Key
 api = "bc620ead2d18122876f00d05d2993999"
