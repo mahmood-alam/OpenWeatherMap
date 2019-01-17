@@ -6,8 +6,12 @@ api = "bc620ead2d18122876f00d05d2993999"
 # Base url
 base = "http://api.openweathermap.org/data/2.5/weather?"
 
-# Prompt city (only grab first word inputed)
-city = raw_input("Where are you: ").split(' ', 1)[0]
+# Input city 
+city = "Chicago IL"
+print("Where are you? "+city)
+
+# Only grab first word inputed
+city = city.split(" ", 1)[0]
 
 # Api request url
 url = base + "appid=" + api + "&q=" + city
